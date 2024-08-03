@@ -1,3 +1,6 @@
+from datetime import date
+
+
 class Copperhead:
 
     def __init__(self, name, species):
