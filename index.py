@@ -1,13 +1,12 @@
-from datetime import date
 from slithering import Chameleon, Copperhead, LeopardGecko, RatSnake, Salamander
 from walking import Donkey, Goat, Lion, LLama, Zebra
 from swimming import Dolphin, Goldfish, Otter, Penguin, Shark
 
-llama = LLama("Larry", "Llama")
-donkey = Donkey("Daisy", "Donkey")
-goat = Goat("Gary", "Goat")
-lion = Lion("Leo", "Lion")
-zebra = Zebra("Zane", "Zebra")
+llama = LLama("Larry", "Llama", "morning")
+donkey = Donkey("Daisy", "Donkey", "midday")
+goat = Goat("Gary", "Goat", "afternoon")
+lion = Lion("Leo", "Lion", "morning")
+zebra = Zebra("Zane", "Zebra", "midday")
 copperheads = Copperhead("Cathy", "Copperheads")
 leopard_gecko = LeopardGecko("Lenny", "Leopard Gecko")
 rat_snake = RatSnake("Rita", "Rat Snake")

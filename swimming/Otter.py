@@ -1,3 +1,6 @@
+from datetime import date
+
+
 class Otter:
 
     def __init__(self, name, species):

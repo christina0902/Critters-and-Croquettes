@@ -1,3 +1,6 @@
+from datetime import date
+
+
 class Salamander:
 
     def __init__(self, name, species):

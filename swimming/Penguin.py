@@ -1,3 +1,6 @@
+from datetime import date
+
+
 class Penguin:
 
     def __init__(self, name, species):
